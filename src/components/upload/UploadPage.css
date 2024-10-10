@@ -3,11 +3,10 @@
   padding: 50px;
   width: 40%;
   margin: 0 auto;
-  height: 100vh;
 }
 
 .upload-page h1 {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 40px;
@@ -66,6 +65,29 @@
 
 .upload-button:hover {
   background-color: #0056b3;
+}
+
+/* Peer Review Section */
+.peer-review-section {
+  margin-top: 40px;
+}
+
+.peer-review-section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.paper-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.paper-abstract {
+  font-size: 16px;
+  margin-bottom: 20px;
+  color: #333;
 }
 
 /* Responsive Design */
