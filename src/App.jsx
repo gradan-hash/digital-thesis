@@ -5,6 +5,7 @@ import Navbar from "./components/navbar/Navbar";
 import SearchPage from "./components/search/SearchPage";
 import UploadPage from "./components/upload/UploadPage";
 import AboutPage from "./components/about/AboutPage";
+import ContactPage from "./components/contact/ContactPage";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path="/search" element={<SearchPage />} />
         <Route path="/upload" element={<UploadPage />} />
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/contact" element={<ContactPage />} />
       </Routes>
     </Router>
   );
