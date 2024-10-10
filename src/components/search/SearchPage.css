@@ -91,7 +91,7 @@
 /* Responsive Styles */
 @media (max-width: 768px) {
   .search-input {
-    width: 150%;
+    width: 100%;
   }
 
   .results-section h2 {
