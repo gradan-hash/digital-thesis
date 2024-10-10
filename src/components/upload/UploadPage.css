@@ -1,0 +1,90 @@
+/* General Upload Page Styles */
+.upload-page {
+  padding: 50px;
+  width: 40%;
+  margin: 0 auto;
+  height: 100vh;
+}
+
+.upload-page h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+/* Form Styles */
+.upload-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  background-color: #f8f8f8;
+  width: 100%;
+}
+
+.form-group textarea {
+  resize: vertical;
+  height: 150px;
+}
+
+.form-group input[type="file"] {
+  background-color: white;
+  padding: 8px;
+}
+
+/* Button Styles */
+.upload-button {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-start;
+}
+
+.upload-button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .upload-page {
+    padding: 20px;
+    width: 80%;
+  }
+
+  .upload-page h1 {
+    font-size: 28px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-size: 14px;
+  }
+
+  .upload-button {
+    font-size: 16px;
+  }
+}
