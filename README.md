@@ -33,11 +33,7 @@ Make sure you have the following installed on your machine:
    ```
 ````
 
-2. **Navigate to the Project Directory**:
-
-   ```bash
-   cd thesis-hub
-   ```
+2
 
 3. **Install Dependencies**:
    Run the following command to install all required dependencies:
@@ -79,7 +75,7 @@ Builds the app for production, creating a `build/` directory with the optimized 
 
 - **React**: Frontend framework for building user interfaces.
 - **CSS**: For styling the components and making the design responsive.
-- **Node.js**: Used to manage the development environment and run the React application.
+
 
 ## Future Enhancements
 
@@ -94,10 +90,6 @@ Builds the app for production, creating a `build/` directory with the optimized 
 3. Commit your changes: `git commit -m 'Add some feature'`.
 4. Push to the branch: `git push origin feature-name`.
 5. Open a pull request.
-
-## License
-
-This project is licensed under the MIT License.
 
 ## Contact
 
