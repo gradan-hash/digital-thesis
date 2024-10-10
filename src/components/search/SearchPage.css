@@ -1,0 +1,104 @@
+/* General Styles for Search Page */
+.search-page {
+  padding: 20px;
+}
+
+/* Hero Section */
+.hero-section {
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Search Bar Container */
+.search-bar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-input {
+  width: 300%;
+  padding: 15px;
+  border-radius: 18px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  outline: none;
+  margin-bottom: 20px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-button {
+  padding: 15px 30px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+/* Results Section */
+.results-section {
+  margin-top: 40px;
+}
+
+.results-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.thesis-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.thesis-item {
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.thesis-item h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.thesis-actions button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.thesis-actions button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .search-input {
+    width: 80%;
+  }
+
+  .results-section h2 {
+    font-size: 20px;
+  }
+
+  .thesis-item h3 {
+    font-size: 16px;
+  }
+}
