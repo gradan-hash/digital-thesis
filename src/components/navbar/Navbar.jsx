@@ -42,6 +42,11 @@ const Navbar = () => {
               Search
             </Link>
           </li>
+          <li>
+            <Link to="/stats" onClick={toggleMobileMenu}>
+              Stats
+            </Link>
+          </li>
         </ul>
       </div>
 
